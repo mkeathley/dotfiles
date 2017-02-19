@@ -1,2 +1,3 @@
 #include ".Xresources.d/urxvt.d/config"
 #include ".Xresources.d/urxvt.d/colors/monokai"
+#include ".Xresources.d/urxvt.d/tabs"
