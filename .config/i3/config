@@ -165,3 +165,8 @@ smart_gaps on
 
 new_window pixel 1
 new_float pixel 1
+
+exec --no-startup-id compton -f
+exec_always --no-startup-id feh --bg-fill ~/Downloads/vim-shortcuts-dark_2560x1600.png
+exec_always xmodmap -e "clear lock" #disable caps lock toggle
+exec_always xmodmap -e "keysym Caps_Lock = Escape" #bind caps lock to escape
